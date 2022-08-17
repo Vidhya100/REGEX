@@ -20,10 +20,23 @@
             //    Console.WriteLine("Pattern Not Matched");
             //}
 
-            Console.WriteLine("Please enter the Last Name ");
-            string lastname = Console.ReadLine();
-            bool val1 = user.LastName(lastname);
-            if (val1)
+            //Console.WriteLine("Please enter the Last Name ");
+            //string lastname = Console.ReadLine();
+            //bool val1 = user.LastName(lastname);
+            //if (val1)
+            //{
+            //    Console.WriteLine("Pattern Matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern Not Matched");
+            //}
+
+            Console.WriteLine("Please enter email address:  ");
+            string email = Console.ReadLine();
+
+            bool val = user.Email(email);
+            if (val)
             {
                 Console.WriteLine("Pattern Matched");
             }
