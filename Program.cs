@@ -5,10 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Please enter the First Name ");
-            string pattern = Console.ReadLine();
+            string firstName = Console.ReadLine();
 
             UserRegi user = new UserRegi();
-            bool val = user.FirstName(pattern);
+            bool val = user.FirstName(firstName);
 
             if (val)
             {
