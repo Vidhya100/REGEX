@@ -7,14 +7,8 @@
             Console.WriteLine("Please enter the First Name ");
             string pattern = Console.ReadLine();
 
-            //Pattern patterns = new Pattern();
-            //bool val = patterns.validatePinCode(pattern);
-
-            //Pattern patterns = new Pattern();
-            //bool val = patterns.validatePhoneNumb(pattern);
-
             UserRegi user = new UserRegi();
-            bool val = user.UserRegistration(pattern);
+            bool val = user.FirstName(pattern);
 
             if (val)
             {
