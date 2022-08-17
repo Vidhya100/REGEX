@@ -68,7 +68,7 @@
             }
             else
             {
-                Console.WriteLine("Pattern Not Matched, there must be 8 characters and at least 1 uppercase character.");
+                Console.WriteLine("Pattern Not Matched, there must be 8 characters and at least 1 uppercase, 1 digit in character.");
             }
 
         }
