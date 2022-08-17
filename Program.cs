@@ -32,10 +32,23 @@
             //    Console.WriteLine("Pattern Not Matched");
             //}
 
-            Console.WriteLine("Please enter email address:  ");
-            string email = Console.ReadLine();
+            //Console.WriteLine("Please enter email address:  ");
+            //string email = Console.ReadLine();
 
-            bool val = user.Email(email);
+            //bool val = user.Email(email);
+            //if (val)
+            //{
+            //    Console.WriteLine("Pattern Matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern Not Matched");
+            //}
+
+            Console.WriteLine("Please enter mobile number:  ");
+            string mobile = Console.ReadLine();
+
+            bool val = user.MobileNumber(mobile);
             if (val)
             {
                 Console.WriteLine("Pattern Matched");
